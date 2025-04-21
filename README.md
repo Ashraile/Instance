@@ -9,16 +9,11 @@ Template coding made easy
       console.log(e);
   });
 </script>
-```
-
-OR
-
-```javascript
- <script>
+<script>
    var browser = new Instance(function(e) { // shorthand for above
       console.log(e);
    });
- </script>
+</script>
 ```
 
 ```javascript

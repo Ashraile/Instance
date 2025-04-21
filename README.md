@@ -1,7 +1,7 @@
 # Instance
 Template coding made easy
 
-```
+```javascript
 <script src = "Instance-0.0.1.js"></script>
 <script>
   var browser = new Instance(document, function(e) { 

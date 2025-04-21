@@ -1,7 +1,7 @@
 # Instance
 Template coding made easy
 
-```javascript
+```
 <script src = "Instance-0.0.1.js"></script>
 <script>
   var browser = new Instance(document, function(e) { 
@@ -10,7 +10,9 @@ Template coding made easy
   });
 </script>
 ```
+
 OR
+
 ```javascript
  <script>
    var browser = new Instance(function(e) { // shorthand for above

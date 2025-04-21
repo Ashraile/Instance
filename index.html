@@ -1,0 +1,27 @@
+<!doctype html>
+    <head>
+        <script src = "Instance-0.0.1.js"></script>
+        <script>
+        var browser = new Instance(function(e) {
+
+            // this.export("require", "define");
+
+            console.log(e);
+
+        });
+
+       // Instance.globalize("foreach");
+        </script>
+        <script>
+            if (browser.supports('void', 'let')) {
+                browser.loadScript("test.js");
+            }
+        </script>
+    </head>
+    <body>
+	  <div class = "container">
+        <div class = 'upper'>Hi</div>
+	  </div>		
+
+    </body>
+</html>
